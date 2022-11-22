@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Formular</title>
+    <link href="mystyles.css" rel="stylesheet" type="text/css">
+</head>
+ 
+<body>
+  <div id="holder">
+    <section style="width: 40%; background-color:#f8f3f3;">  
+   <h1> Kommentar hinterlassen</h1>
+    <form id="form1" method="post" enctype="text/plain" action="mailto:milana.anikushina@t-online.de">
+     <p>
+         <label for="vorname">Vorname</label>
+         <input type="text" name="prename" id="vorname">
+     </p>
+      <p>
+         <label for="nachname">Nachname</label>
+         <input type="text" name="name" id="nachname">
+     </p>
+        <p>
+         <label for="adresse">Adresse</label>
+         <input type="text" name="address" id="adresse">
+     </p>
+      <p>
+         <label for="email">E-Mail</label>
+         <input type="text" name="mail" id="email">
+     </p>
+      <p>
+         <label for="frage1">Was habe ich für Sie entwickelt?</label>
+         <input type="text" name="frage_1" id="frage1">
+     </p>
+    <p>Wie zufrieden sind Sie mit Ergebnis?</p>
+     <textarea id="frage2" name="frage_2" rows="4" cols="35%"></textarea>
+     <p>
+         <label for="frage3">Wie empfinden Sie die Betreuung?</label>
+         <select name="antworten" id="frage3">
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+         </select>
+     </p>
+     <p>Ich bin
+     <br>
+         <label for="weiblich">weiblich</label>
+         <input type="radio" name="geschlecht" value="female" id="weiblich">
+      <label for="maennlich">männlich</label>
+         <input type="radio" name="geschlecht" value="male" id="maennlich">
+         <br>
+     </p>
+
+     <p>Ich möchte in Zukunft Mitteilungen erhalten per</p>
+     <p>
+     <laber for="post">Post</laber>
+         <input type="checkbox" name="antwort1" value="ja" id="alle">
+         <laber for="email">E-Mail</laber>
+     <input type="checkbox" name="antwort2" value="ja" id="nix">
+     </p>
+     <p>
+         <input type="submit" name="button" id="sende" value="Senden"
+     </p>
+    </form>
+  </section> 
+
+  <section style="background-color:#f1a4a4; width: 60%;">
+    <h1>
+        Grafiks
+    </h1>
+    <p>Kommentar</p>
+  </section>
+ </div>
+  <a href="index.html" >Zurück auf die Homepage</a>
+ </body>
+</html>

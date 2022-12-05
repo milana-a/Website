@@ -1,0 +1,19 @@
+html {
+    font-size: 100%;
+}
+#headFotoausstellung {
+    font-size: 2rem;
+    padding: 0.8rem;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    color: #44403F;
+}
+   
+img {
+    max-width: 12rem;
+    border-radius: 0.9em;
+    margin: 0.2rem;
+  }
